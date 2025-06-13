@@ -1,0 +1,356 @@
+-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
+
+-- Instances:
+
+local Converted = {
+	["_ScreenGui"] = Instance.new("ScreenGui");
+	["_gui"] = Instance.new("Frame");
+	["_exit"] = Instance.new("TextButton");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_search"] = Instance.new("TextBox");
+	["_UIDragDetector"] = Instance.new("UIDragDetector");
+	["_Home"] = Instance.new("TextButton");
+	["_Scripts"] = Instance.new("TextButton");
+	["_Lua"] = Instance.new("TextButton");
+	["_player"] = Instance.new("ImageLabel");
+	["_DisplayPlayerProfilePicture"] = Instance.new("LocalScript");
+	["_age"] = Instance.new("TextLabel");
+	["_name"] = Instance.new("TextLabel");
+	["_DisplayPlayerNameAndAge"] = Instance.new("LocalScript");
+	["_Frame"] = Instance.new("Frame");
+	["_Frame1"] = Instance.new("Frame");
+	["_selectmessage"] = Instance.new("TextBox");
+	["_message"] = Instance.new("TextButton");
+	["_CreateMessageOnButtonClick"] = Instance.new("LocalScript");
+	["_minimized"] = Instance.new("Frame");
+	["_open"] = Instance.new("TextButton");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_UIDragDetector1"] = Instance.new("UIDragDetector");
+}
+
+-- Properties:
+
+Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_ScreenGui"].Parent = game:GetService("CoreGui")
+
+Converted["_gui"].BackgroundColor3 = Color3.fromRGB(18.000000827014446, 19.0000007674098, 44.000001177191734)
+Converted["_gui"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_gui"].BorderSizePixel = 0
+Converted["_gui"].Position = UDim2.new(0.106382981, 0, 0.321563423, 0)
+Converted["_gui"].Size = UDim2.new(0, 432, 0, 285)
+Converted["_gui"].Name = "gui"
+Converted["_gui"].Parent = Converted["_ScreenGui"]
+
+Converted["_exit"].Font = Enum.Font.SourceSans
+Converted["_exit"].Text = ""
+Converted["_exit"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_exit"].TextSize = 14
+Converted["_exit"].BackgroundColor3 = Color3.fromRGB(255, 60.00000402331352, 11.000000294297934)
+Converted["_exit"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_exit"].BorderSizePixel = 0
+Converted["_exit"].Position = UDim2.new(0.856307566, 0, 0.0369339809, 0)
+Converted["_exit"].Size = UDim2.new(0, 50, 0, 50)
+Converted["_exit"].Name = "exit"
+Converted["_exit"].Parent = Converted["_gui"]
+
+Converted["_search"].CursorPosition = -1
+Converted["_search"].Font = Enum.Font.Roboto
+Converted["_search"].Text = ""
+Converted["_search"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_search"].TextSize = 41
+Converted["_search"].BackgroundColor3 = Color3.fromRGB(34.00000177323818, 35.00000171363354, 76.0000030696392)
+Converted["_search"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_search"].BorderSizePixel = 0
+Converted["_search"].Position = UDim2.new(0.0224942807, 0, 0.0369339809, 0)
+Converted["_search"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_search"].Name = "search"
+Converted["_search"].Parent = Converted["_gui"]
+
+Converted["_UIDragDetector"].Parent = Converted["_gui"]
+
+Converted["_Home"].Font = Enum.Font.Unknown
+Converted["_Home"].Text = "home"
+Converted["_Home"].TextColor3 = Color3.fromRGB(226.00001692771912, 203.00001829862595, 255)
+Converted["_Home"].TextScaled = true
+Converted["_Home"].TextSize = 14
+Converted["_Home"].TextWrapped = true
+Converted["_Home"].BackgroundColor3 = Color3.fromRGB(98.00000935792923, 70.00000342726707, 132.0000073313713)
+Converted["_Home"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Home"].BorderSizePixel = 0
+Converted["_Home"].Position = UDim2.new(0.0162037034, 0, 0.24210526, 0)
+Converted["_Home"].Size = UDim2.new(0, 136, 0, 31)
+Converted["_Home"].Name = "Home"
+Converted["_Home"].Parent = Converted["_gui"]
+
+Converted["_Scripts"].Font = Enum.Font.Unknown
+Converted["_Scripts"].Text = "scripts"
+Converted["_Scripts"].TextColor3 = Color3.fromRGB(226.00001692771912, 203.00001829862595, 255)
+Converted["_Scripts"].TextScaled = true
+Converted["_Scripts"].TextSize = 14
+Converted["_Scripts"].TextWrapped = true
+Converted["_Scripts"].BackgroundColor3 = Color3.fromRGB(98.00000175833702, 70.00000342726707, 132.0000073313713)
+Converted["_Scripts"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Scripts"].BorderSizePixel = 0
+Converted["_Scripts"].Position = UDim2.new(0.337962955, 0, 0.24210526, 0)
+Converted["_Scripts"].Size = UDim2.new(0, 136, 0, 31)
+Converted["_Scripts"].Name = "Scripts"
+Converted["_Scripts"].Parent = Converted["_gui"]
+
+Converted["_Lua"].Font = Enum.Font.Unknown
+Converted["_Lua"].RichText = true
+Converted["_Lua"].Text = "lua"
+Converted["_Lua"].TextColor3 = Color3.fromRGB(226.0000017285347, 203.00000309944153, 255)
+Converted["_Lua"].TextScaled = true
+Converted["_Lua"].TextSize = 14
+Converted["_Lua"].TextWrapped = true
+Converted["_Lua"].BackgroundColor3 = Color3.fromRGB(98.00000935792923, 70.00000342726707, 132.0000073313713)
+Converted["_Lua"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Lua"].BorderSizePixel = 0
+Converted["_Lua"].Position = UDim2.new(0.666666687, 0, 0.24210526, 0)
+Converted["_Lua"].Size = UDim2.new(0, 136, 0, 31)
+Converted["_Lua"].Name = "Lua"
+Converted["_Lua"].Parent = Converted["_gui"]
+
+Converted["_player"].Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+Converted["_player"].ImageContent = Content
+Converted["_player"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_player"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_player"].BorderSizePixel = 0
+Converted["_player"].Position = UDim2.new(0.136574075, 0, 0.498245627, 0)
+Converted["_player"].Size = UDim2.new(0, 100, 0, 100)
+Converted["_player"].Name = "player"
+Converted["_player"].Parent = Converted["_gui"]
+
+Converted["_age"].Font = Enum.Font.SourceSans
+Converted["_age"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_age"].TextSize = 14
+Converted["_age"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_age"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_age"].BorderSizePixel = 0
+Converted["_age"].Position = UDim2.new(0.020833334, 0, 0.382456154, 0)
+Converted["_age"].Size = UDim2.new(0, 200, 0, 33)
+Converted["_age"].Name = "age"
+Converted["_age"].Parent = Converted["_gui"]
+
+Converted["_name"].Font = Enum.Font.SourceSans
+Converted["_name"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_name"].TextSize = 14
+Converted["_name"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_name"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_name"].BorderSizePixel = 0
+Converted["_name"].Position = UDim2.new(0.020833334, 0, 0.849122822, 0)
+Converted["_name"].Size = UDim2.new(0, 200, 0, 33)
+Converted["_name"].Name = "name"
+Converted["_name"].Parent = Converted["_gui"]
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 0
+Converted["_Frame"].Position = UDim2.new(0.368055552, 0, 0.498245627, 0)
+Converted["_Frame"].Size = UDim2.new(0, 50, 0, 100)
+Converted["_Frame"].Parent = Converted["_gui"]
+
+Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame1"].BorderSizePixel = 0
+Converted["_Frame1"].Position = UDim2.new(0.020833334, 0, 0.498245627, 0)
+Converted["_Frame1"].Size = UDim2.new(0, 50, 0, 100)
+Converted["_Frame1"].Parent = Converted["_gui"]
+
+Converted["_selectmessage"].CursorPosition = -1
+Converted["_selectmessage"].Font = Enum.Font.SourceSans
+Converted["_selectmessage"].Text = ""
+Converted["_selectmessage"].TextColor3 = Color3.fromRGB(226.0000017285347, 203.00000309944153, 255)
+Converted["_selectmessage"].TextSize = 14
+Converted["_selectmessage"].BackgroundColor3 = Color3.fromRGB(98.00000175833702, 70.00000342726707, 132.0000073313713)
+Converted["_selectmessage"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_selectmessage"].BorderSizePixel = 0
+Converted["_selectmessage"].Position = UDim2.new(0.506944418, 0, 0.743859649, 0)
+Converted["_selectmessage"].Size = UDim2.new(0, 200, 0, 30)
+Converted["_selectmessage"].Name = "selectmessage"
+Converted["_selectmessage"].Parent = Converted["_gui"]
+
+Converted["_message"].Font = Enum.Font.Unknown
+Converted["_message"].Text = "message!"
+Converted["_message"].TextColor3 = Color3.fromRGB(226.0000017285347, 203.00000309944153, 255)
+Converted["_message"].TextSize = 20
+Converted["_message"].BackgroundColor3 = Color3.fromRGB(98.00000175833702, 70.00000342726707, 132.0000073313713)
+Converted["_message"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_message"].BorderSizePixel = 0
+Converted["_message"].Position = UDim2.new(0.567129612, 0, 0.859649122, 0)
+Converted["_message"].Size = UDim2.new(0, 145, 0, 27)
+Converted["_message"].Name = "message"
+Converted["_message"].Parent = Converted["_gui"]
+
+Converted["_minimized"].BackgroundColor3 = Color3.fromRGB(18.000000827014446, 19.0000007674098, 44.000001177191734)
+Converted["_minimized"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_minimized"].BorderSizePixel = 0
+Converted["_minimized"].Position = UDim2.new(0.106382981, 0, 0.622062147, 0)
+Converted["_minimized"].Size = UDim2.new(0, 432, 0, 44)
+Converted["_minimized"].Visible = false
+Converted["_minimized"].Name = "minimized"
+Converted["_minimized"].Parent = Converted["_ScreenGui"]
+
+Converted["_open"].Font = Enum.Font.SourceSans
+Converted["_open"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_open"].TextSize = 14
+Converted["_open"].BackgroundColor3 = Color3.fromRGB(255, 207.00001806020737, 16.000000946223736)
+Converted["_open"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_open"].BorderSizePixel = 0
+Converted["_open"].Position = UDim2.new(0.268518507, 0, 0.181818187, 0)
+Converted["_open"].Size = UDim2.new(0, 200, 0, 28)
+Converted["_open"].Name = "open"
+Converted["_open"].Parent = Converted["_minimized"]
+
+Converted["_UIDragDetector1"].Parent = Converted["_minimized"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+
+-- Fake Local Scripts:
+
+local function PQMZO_fake_script() -- Fake Script: StarterGui.ScreenGui.gui.exit.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_exit"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent -- The script is under the TextButton
+	local gui = button.Parent -- The GUI is the parent of the button
+	local minimized = gui.Parent:FindFirstChild("minimized") -- Find the minimized frame
+	
+	button.MouseButton1Click:Connect(function()
+	    if gui and minimized then
+	        gui.Visible = false -- Hide the GUI
+	        minimized.Visible = true -- Show the minimized frame
+	    end
+	end)
+	
+	
+end
+local function FFSF_fake_script() -- Fake Script: StarterGui.ScreenGui.gui.player.DisplayPlayerProfilePicture
+    local script = Instance.new("LocalScript")
+    script.Name = "DisplayPlayerProfilePicture"
+    script.Parent = Converted["_player"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local imageLabel = script.Parent
+	
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	if isReady then
+	    imageLabel.Image = content
+	end
+	
+	
+end
+local function FTQD_fake_script() -- Fake Script: StarterGui.ScreenGui.gui.name.DisplayPlayerNameAndAge
+    local script = Instance.new("LocalScript")
+    script.Name = "DisplayPlayerNameAndAge"
+    script.Parent = Converted["_name"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	
+	local nameLabel = script.Parent
+	local ageLabel = nameLabel.Parent:FindFirstChild("age")
+	
+	nameLabel.Text = player.DisplayName
+	ageLabel.Text = "Account Age: " .. player.AccountAge
+	
+	
+end
+local function SYCRIC_fake_script() -- Fake Script: StarterGui.ScreenGui.gui.CreateMessageOnButtonClick
+    local script = Instance.new("LocalScript")
+    script.Name = "CreateMessageOnButtonClick"
+    script.Parent = Converted["_gui"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent -- The script is under the TextButton
+	local selectMessageBox = button.Parent:FindFirstChild("selectmessage") -- Find the TextBox
+	
+	button.MouseButton1Click:Connect(function()
+	    if selectMessageBox then
+	        local messageText = selectMessageBox.Text
+	        if messageText and messageText ~= "" then
+	            for _, child in game.Workspace:GetChildren() do
+	                if child:IsA("Hint") then
+	                    child:Destroy() -- Remove any existing hints to avoid clutter
+	                end
+	            end
+	            local newHint = Instance.new("Hint")
+	            newHint.Text = messageText
+	            newHint.Parent = game.Workspace
+	        end
+	    end
+	end)
+	
+	
+end
+local function JYHH_fake_script() -- Fake Script: StarterGui.ScreenGui.minimized.open.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_open"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent -- The script is under the TextButton
+	local minimized = button.Parent -- The minimized frame is the parent of the button
+	local gui = minimized.Parent:FindFirstChild("gui") -- Find the GUI frame
+	
+	button.MouseButton1Click:Connect(function()
+	    if gui and minimized then
+	        gui.Visible = true -- Show the GUI
+	        minimized.Visible = false -- Hide the minimized frame
+	    end
+	end)
+	
+end
+
+coroutine.wrap(PQMZO_fake_script)()
+coroutine.wrap(FFSF_fake_script)()
+coroutine.wrap(FTQD_fake_script)()
+coroutine.wrap(SYCRIC_fake_script)()
+coroutine.wrap(JYHH_fake_script)()
